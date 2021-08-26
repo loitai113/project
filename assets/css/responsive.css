@@ -1,0 +1,151 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    :root {
+        --header-top-height: 70px;
+    }
+
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+
+    .header {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .header-logo {
+        width: 113px;
+        margin-left: 50px;
+    }
+
+    i.m-t__navbar-btn {
+        display: block;
+    }
+
+    .m-t__navbar.open {
+        /* display: block; */
+        height: 100vh;
+        visibility: visible;
+    }
+
+    .home-htu__wrapper {
+        margin-top: calc(var(--header-top-height) + 62px);
+    }
+
+    .footer-policy__wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-policy__img-link {
+        margin: 28px 0;
+    }
+
+    .footer-copyright__text {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .header-logo {
+        width: 113px;
+    }
+
+    .home-htu__list {
+        padding-top: 0;
+    }
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .m-mt-16 {
+        margin-top: 16px;
+    }
+    
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header-logo {
+        width: 100px;
+    }
+
+    .header-navbar__item {
+        margin-left: 20px;
+    }
+
+    .header-navbar__item-text {
+        font-size: 1.4rem;
+    }
+
+    .header-navbar__item-icon {
+        font-size: 1.6rem;
+    }    
+
+    .home-htu__title {
+        font-size: 3.9rem;
+        text-align: center;
+    }
+
+    .home-htu__desc {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .home-htu__list {
+        text-align: center;
+    }
+
+    .home-htu__item {
+        padding: 12px 0;
+    }
+
+    .home-htu__item-text {
+        line-height: 3.2rem;
+    }
+
+    .home-btn {
+        width: calc(100% - 16px);
+        margin: 18px auto 0;
+    }
+
+    .m-t__navbar-contact-icon,
+    .m-t__navbar-support-icon {
+        font-size: 1.4rem;
+    }
+    
+    .home-partner__item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-partner__img {
+        width: unset;
+    }
+
+    .home-qualify__img {
+        margin-right: 28px;
+    }
+
+    .footer-content__list {
+        text-align: center;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-contact__list {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

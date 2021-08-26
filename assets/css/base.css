@@ -1,0 +1,51 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+
+    --text-color: #404040;
+    --border-color: #dcdcdc;
+    --header-top-height: 80px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    min-width: 107px;
+    height: 48px;
+    background-color: #006ba6;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #005685;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
